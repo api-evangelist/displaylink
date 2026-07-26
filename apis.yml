@@ -1,9 +1,25 @@
 aid: displaylink
-name: displaylink
-description: displaylink is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: DisplayLink
+description: DisplayLink, a brand of Synaptics Incorporated, develops USB-based virtual graphics technology
+  that pairs host driver software with a device-side decoder SoC to act as a virtual graphics card. Its
+  adaptive-compression technology powers universal docking stations, USB monitors, adapters, and
+  multi-display setups over USB-C, USB, and Ethernet, spanning products from the entry-level DL-3000/4000
+  series to the quad-display DL-7000 professional series. DisplayLink is a hardware/semiconductor and
+  driver-software product line rather than a public web-API provider; its developer surface consists of
+  chip SDKs, firmware tooling, and host driver software.
 url: https://raw.githubusercontent.com/api-evangelist/displaylink/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.bfldr.com/ZU41R0OK/at/3959gc83qpgpbssgschqg8s/3D-DisplayLink-8-Devices-v2-Shadows-FGX.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- USB Graphics
+- Docking Stations
+- Displays
+- Hardware
+- Virtual GPU
+- Synaptics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +46,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.displaylink.com/
+  url: https://www.synaptics.com/products/displaylink-graphics
+- type: DeveloperPortal
+  url: https://developer.synaptics.com/
+- type: Support
+  url: https://support.displaylink.com/
+- type: GitHubOrganization
+  url: https://github.com/synaptics-astra
+- type: LLMsTxt
+  url: llms/displaylink-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

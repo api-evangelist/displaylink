@@ -1,0 +1,20 @@
+# DisplayLink
+
+> DisplayLink (a Synaptics brand) develops USB-based virtual graphics technology — software plus a device-side decoder SoC that acts as a virtual graphics card, enabling universal docking stations, USB monitors, adapters, and multi-display setups over USB-C, USB, and Ethernet. It is a hardware/semiconductor and driver-software product line, not a public web-API provider.
+
+## Overview
+- Company: DisplayLink, part of Synaptics Incorporated
+- Category: USB graphics / virtual GPU SoCs + host driver software
+- Products: DL-7000, DL-6000 (DL-6950/DL-6700), DL-3000/4000, DL-1900E series; docking stations, USB monitors, adapters, POS, digital signage
+- No public REST/GraphQL API or OpenAPI specification is published. Developer resources are chip SDKs, firmware tooling, and host driver software.
+
+## Developer Resources
+- Product overview: https://www.synaptics.com/products/displaylink-graphics
+- Synaptics Developer Zone (Astra): https://developer.synaptics.com/
+- Support: https://support.displaylink.com/
+- DisplayLink community forum: https://www.displaylink.org/forum/
+- Synaptics Astra GitHub (embedded/SDK): https://github.com/synaptics-astra
+
+## Notes
+- The DisplayLink "Dock Status API" is a device/driver-level interface for reading connected-peripheral status, not a hosted web API.
+- Driver downloads and firmware tooling are distributed via Synaptics/DisplayLink support and customer portals.
