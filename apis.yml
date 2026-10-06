@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 x-docs-platform: docusaurus
 x-docs-platform-confidence: medium
 x-docs-platform-checked: 2026-09-25
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.synaptics.com/blog/feed
+  type: BlogRSS
 - type: Website
   url: https://www.synaptics.com/products/displaylink-graphics
 - type: DeveloperPortal
